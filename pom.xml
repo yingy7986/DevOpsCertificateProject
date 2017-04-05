@@ -49,7 +49,7 @@
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>src/com/edureka/bankservice</testSourceDirectory>
+    <testSourceDirectory>src/com/edureka/bankservice/testcase</testSourceDirectory>
     <resources>
       <resource>
         <directory>src</directory>        
@@ -84,7 +84,7 @@
                 <configuration>
                     <skip>false</skip>
                     <includes>
-                        <include>**/TestBankService.java</include>                        
+                        <include>**/Test*.java</include>                        
                     </includes>
                 </configuration>
             </execution>
