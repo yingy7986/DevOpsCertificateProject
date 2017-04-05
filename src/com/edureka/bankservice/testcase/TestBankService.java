@@ -1,6 +1,6 @@
 package com.edureka.bankservice.testcase;
 
-import com.edureka.bankservice;
+import com.edureka.bankservice.ValidateLogin;
 
 import static org.mockito.Mockito.when;
 
