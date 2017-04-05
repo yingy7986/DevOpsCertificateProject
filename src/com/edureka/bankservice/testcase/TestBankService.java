@@ -142,14 +142,8 @@ public class TestBankService extends TestCase{
 	 			}
 
 	 		}
-	 	}	
+	 	}
 	 
-	@Test
-	public void testValidateLogin() {
-		
-		assertEquals("Invalid Login", ValidateLogin.logindata(5656,"gghm"));	
-	}
-
-
+	
 }
 
