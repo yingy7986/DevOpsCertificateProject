@@ -14,7 +14,7 @@ public class ValidateLoginTest {
 	@Test
 	public void testValidateLogin() {
 		
-		assertEquals("Invalid Login", ValidateLogin.doPost(5656,"gghm"));
+		assertEquals("Invalid Login", ValidateLogin.logindata(5656,"gghm"));
 		
 		
 		
@@ -23,7 +23,7 @@ public class ValidateLoginTest {
         //.click(By.xpath("/html/body/div/div/div[2]/div/form/p[3]/input"))
 
         //.validateTextPresent("You are now logged in");
-		fail("Not yet implemented");
+	//	fail("Not yet implemented");
 	}
 
 	@Test
