@@ -113,7 +113,7 @@
        <artifactId>tomcat-maven-plugin</artifactId>
         <version>2.2</version>
        <configuration>  
-        <url>http://localhost:8080/manager</url>  
+        <url>http://localhost:8080/manager/test</url>  
         <server>localhost</server>
         <username>test</username>  
         <password>test</password>   
