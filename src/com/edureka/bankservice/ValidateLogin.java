@@ -3,6 +3,7 @@ package com.edureka.bankservice;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +16,7 @@ import javax.servlet.http.HttpSession;
 @WebServlet("/ValidateLogin")
 public class ValidateLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = new String("/home/edureka/DevOpsCertificationProject/src/Login.txt");
+	private static final String FILENAME = "/home/edureka/DevOpsCertificationProject/src/Login.txt";
     public ValidateLogin() {
         super();
         }
