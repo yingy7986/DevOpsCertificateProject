@@ -1,7 +1,6 @@
 package com.edureka.bankservice.testcase;
 
 import com.edureka.bankservice.ValidateLogin;
-
 import static org.mockito.Mockito.when;
 
 import java.io.BufferedReader;
@@ -144,7 +143,7 @@ public class TestBankService extends TestCase{
 	 		}
 	 	}
 
-	 @Test
+	@Test
 	public void testValidateLogin() {
 		
 		assertEquals("Invalid Login", ValidateLogin.logindata(5656,"gghm"));	
