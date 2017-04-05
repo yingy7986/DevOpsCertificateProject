@@ -85,7 +85,7 @@ public class ValidateLogin extends HttpServlet {
 		
 	}
 	
-	protected string logindata(int id, string pwd)
+	protected String logindata(int id, string pwd)
 	{
 		return "Invalid Login";
 	}
