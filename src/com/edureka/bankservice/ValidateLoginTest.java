@@ -14,7 +14,7 @@ public class ValidateLoginTest {
 	@Test
 	public void testValidateLogin() {
 		
-		assertEquals("Invalid Login", ValidateLogin.logindata(5656,"gghm"));
+		assertEquals("Invalid Login", ValidateLogin.doPost(5656,"gghm"));
 		
 		
 		
