@@ -142,13 +142,8 @@ public class TestBankService extends TestCase{
 	 			}
 
 	 		}
-	 	}
-	
-	 @Test
-	 public void testAddedForCoverage() throws Exception {	
-	 	assertEquals("In GetAccountAndBalance", GetAccountAndBalance.EmptyTest());	  
-	 }
-
+	 	}	
+	 
 	@Test
 	public void testValidateLogin() {
 		
