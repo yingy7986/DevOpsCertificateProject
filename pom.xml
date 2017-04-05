@@ -86,7 +86,8 @@
                 <configuration>
                     <skip>false</skip>
                     <includes>
-                        <include>**/Test*.java</include>                        
+                        <include>**/Test*.java</include> 
+                        <include>**/*Test.java</include> 
                     </includes>
                 </configuration>
             </execution>
