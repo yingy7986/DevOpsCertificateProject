@@ -50,6 +50,18 @@
     <sourceDirectory>src/com/edureka/bankservice</sourceDirectory>    
     <testSourceDirectory>src/com/edureka/bankservice/testcase</testSourceDirectory>    
     <plugins>
+      <plugin>  
+       <groupId>org.apache.tomcat.maven</groupId>  
+       <artifactId>tomcat8-maven-plugin</artifactId>  
+       <version>2.2</version>
+       <configuration>  
+        <url>http://localhost:8080/manager</url>  
+        <server>mytomcat</server>
+        <username>test</username>  
+        <password>test</password>   
+        <path>/mywebapp</path>
+       </configuration>   
+      </plugin>   
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>cobertura-maven-plugin</artifactId>
