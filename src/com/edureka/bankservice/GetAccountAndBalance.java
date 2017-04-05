@@ -23,7 +23,7 @@ public class GetAccountAndBalance extends HttpServlet
         super();
         // TODO Auto-generated constructor stub
     }	
-	public static void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		String hname=null,balance=null;
 		HttpSession session=request.getSession();
@@ -88,5 +88,9 @@ public class GetAccountAndBalance extends HttpServlet
 
 		}
 	}
-
+	
+	public static String EmptyTest()
+	{
+		return "In GetAccountAndBalance"
+	}
 }
