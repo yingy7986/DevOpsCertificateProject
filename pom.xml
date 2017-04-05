@@ -48,7 +48,7 @@
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <testSourceDirectory>src/com/edureka/bankservice/testcase</testSourceDirectory>    
+    <testSourceDirectory>src/com/edureka/bankservice</testSourceDirectory>    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
