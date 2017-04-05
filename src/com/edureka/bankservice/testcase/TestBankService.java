@@ -1,5 +1,7 @@
 package com.edureka.bankservice.testcase;
 
+import com.edureka.bankservice;
+
 import static org.mockito.Mockito.when;
 
 import java.io.BufferedReader;
