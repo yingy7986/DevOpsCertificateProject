@@ -1,6 +1,7 @@
 package com.edureka.bankservice.testcase;
 
 import com.edureka.bankservice.ValidateLogin;
+import com.edureka.bankservice.GetAccountAndBalance;
 import static org.mockito.Mockito.when;
 
 import java.io.BufferedReader;
@@ -142,6 +143,11 @@ public class TestBankService extends TestCase{
 
 	 		}
 	 	}
+	
+	 @Test
+	 public void AddedForCoverage() throws Exception {	
+	 	GetAccountAndBalance.doPost(request, response);	  
+	 }
 
 	@Test
 	public void testValidateLogin() {
