@@ -23,7 +23,7 @@ public class GetAccountAndBalance extends HttpServlet
         super();
         // TODO Auto-generated constructor stub
     }	
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
 		String hname=null,balance=null;
 		HttpSession session=request.getSession();
