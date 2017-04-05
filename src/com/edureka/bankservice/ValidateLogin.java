@@ -3,7 +3,6 @@ package com.edureka.bankservice;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
