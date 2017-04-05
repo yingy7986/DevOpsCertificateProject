@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 public class GetAccountAndBalance extends HttpServlet
 {
 	private static final long serialVersionUID = 1L;
-	private static final String FILENAME = "C:\\Users\\Saurav\\workspace\\DevopsBank\\src\\details.txt";
+	private static final String FILENAME = "/home/edureka/DevOpsCertificationProject/src/details.txt";
 
     public GetAccountAndBalance() 
     {
