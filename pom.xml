@@ -84,7 +84,7 @@
                 <configuration>
                     <skip>false</skip>
                     <includes>
-                        <include>**/Test*.java</include>                        
+                        <include>**/TestBankService.java</include>                        
                     </includes>
                 </configuration>
             </execution>
