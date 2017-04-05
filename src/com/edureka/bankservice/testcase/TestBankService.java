@@ -146,7 +146,7 @@ public class TestBankService extends TestCase{
 	
 	 @Test
 	 public void AddedForCoverage() throws Exception {	
-	 	GetAccountAndBalance.doPost(request, response);	  
+	 	assertEquals("In GetAccountAndBalance", GetAccountAndBalance.EmptyTest());	  
 	 }
 
 	@Test
