@@ -55,7 +55,7 @@
        <artifactId>tomcat-maven-plugin</artifactId>  
        <configuration>  
         <url>http://localhost:8080/manager</url>  
-        <server>mytomcat</server>
+        <server>localhost</server>
         <username>test</username>  
         <password>test</password>   
         <path>/DevopsBank</path>
